@@ -5,7 +5,7 @@ api_key = ''
 
 def openai_request(prompt):
 
-    headers = {'Authorization': f'Bearer {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}'}
+    headers = {'Authorization': f'Bearer {"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"}'}
     response = requests.post(
         'https://api.openai.com/v1/images/generations',
         headers=headers,
